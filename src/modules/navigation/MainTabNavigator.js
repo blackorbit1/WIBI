@@ -3,10 +3,16 @@ import { Text, View, Image, StyleSheet, Platform } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { colors } from '../../styles';
 
-import tabNavigationData from './tabNavigationData';
+//import tabNavigationData from './tabNavigationData';
 
-const Tab = createBottomTabNavigator();
 
+//const Tab = createBottomTabNavigator();
+
+
+export default function BottomTabs() {
+  return (<a></a>);
+};
+/*
 export default function BottomTabs() {
   return (
     <Tab.Navigator tabBarOptions={{style: {height: Platform.OS === 'ios' ? 90 : 50}}}>
@@ -33,6 +39,7 @@ export default function BottomTabs() {
   );
 };
 
+
 const styles = StyleSheet.create({
   tabBarItemContainer: {
     alignItems: 'center',
@@ -50,3 +57,4 @@ const styles = StyleSheet.create({
     tintColor: colors.primary,
   },
 });
+*/

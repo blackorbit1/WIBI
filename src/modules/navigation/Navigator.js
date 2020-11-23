@@ -26,10 +26,12 @@ const drawerData = [
     name: 'Calendar',
     icon: iconCalendar,
   },
+  /*
   {
     name: 'Grids',
     icon: iconGrids,
   },
+  */
   {
     name: 'Pages',
     icon: iconPages,

@@ -1,7 +1,8 @@
 import React from 'react';
 import { TouchableOpacity, Image } from 'react-native';
 
-import TabNavigator from './MainTabNavigator';
+//import TabNavigator from './MainTabNavigator';
+import HomeView from '../home/HomeView';
 import GalleryScreen from '../gallery/GalleryViewContainer';
 import AvailableInFullVersion from '../../modules/availableInFullVersion/AvailableInFullVersionViewContainer';
 
@@ -13,6 +14,7 @@ import AvailableInFullVersion from '../../modules/availableInFullVersion/Availab
 // import AuthScreen from '../auth/AuthViewContainer';
 
 import { colors, fonts } from '../../styles';
+import HomeViewContainer from '../home/HomeViewContainer';
 
 const headerLeftComponent = (props) => {
   return (
@@ -37,9 +39,11 @@ const headerLeftComponent = (props) => {
 const headerBackground = require('../../../assets/images/topBarBg.png');
 
 const StackNavigationData = [
+  ///* BARRE DE NAVIGATION DU BAS
   {
     name: 'React Native Starter',
-    component: TabNavigator,
+    //component: TabNavigator,
+    component: HomeView,
     headerLeft: null,
     headerBackground: { source: headerBackground },
     headerTitleStyle: {
@@ -48,6 +52,8 @@ const StackNavigationData = [
       fontSize: 18,
     },
   },
+  //*/
+  /*
   {
     name: 'Charts',
     component: AvailableInFullVersion,
@@ -136,6 +142,8 @@ const StackNavigationData = [
       fontSize: 18,
     },
   },
+  */
+ 
 ]
 
 export default StackNavigationData;

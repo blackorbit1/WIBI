@@ -21,11 +21,13 @@ const tabNavigationData = [
     component: CalendarScreen,
     icon: iconCalendar,
   },
+  /*
   {
     name: 'Grids',
     component: GridsScreen,
     icon: iconGrids,
   },
+  */
   {
     name: 'Pages',
     component: PagesScreen,
