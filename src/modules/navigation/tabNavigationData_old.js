@@ -10,6 +10,8 @@ const iconGrids = require('../../../assets/images/tabbar/grids.png');
 const iconPages = require('../../../assets/images/tabbar/pages.png');
 const iconComponents = require('../../../assets/images/tabbar/components.png');
 
+// BARRE DE NAVIGATION DU BAS
+
 const tabNavigationData = [
   {
     name: 'Home',
