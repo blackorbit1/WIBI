@@ -1,6 +1,6 @@
 # WIBI : Will I Be Infected ?
 
-<img src="https://desfichesdescartes.fr/projet/icon_localisation_rouge.png" alt="🦠" width="200"/>
+<img src="https://desfichesdescartes.fr/projet/icon_localisation_rouge.png" alt="Logo de l'application WIBI" width="200"/>
 
 ## A quoi ça sert ?
 
@@ -8,9 +8,10 @@ Déterminer la probabilitée d'attrapper le covid en fonction de son comportemen
 
 ## Base technique
 
-Cette application est codée en react native, ce qui permet une compatibilitée totale autant à Android qu'iOS
+Cette application est codée en react native, ce qui permet une compatibilitée totale autant avec Android qu'avec iOS
 
 La base technique de cette application provient du repos suivant : https://github.com/flatlogic/react-native-starter
+
 ## Se lancer
 
 #### 1. Cloner le repos et installer
